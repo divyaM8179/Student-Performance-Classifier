@@ -1,0 +1,13 @@
+pandas
+numpy
+plotly
+matplotlib
+scikit-learn
+seaborn
+kaleido
+ipython
+boto3
+imblearn
+pymysql
+nibabel
+paramiko
