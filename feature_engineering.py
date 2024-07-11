@@ -40,7 +40,7 @@ def feature_engineer():
     grade_2_oversample = grade_2.sample(grade_0_count, replace=True)
     data_balanced = pd.concat([grade_1_oversample, grade_2_oversample, grade_0], axis=0)
     data_balanced['grade'].groupby(data_balanced['grade']).count()
-    data_balanced.to_csv('student_performance_cleansed_data.csv', index=False)
+    data_balanced.to_csv('cleaned_data.csv', index=False)
     return data_balanced
 
 feature_engineer()
